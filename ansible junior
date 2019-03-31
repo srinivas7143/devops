@@ -1,0 +1,38 @@
+1  ping 172.17.0.4
+    2  apt-get install ping -y
+    3  curl 172.17.0.4
+    4  apt-get update ; apt-get install ssh
+    5  apt-get update ; apt-get install ssh -y
+    6  apt-get python vim -y
+    7  apt-get python -y
+    8  passwd root
+    9  apt-get python vim -y
+   10  apt-get vim -y
+   11  apt-get update ; apt-get install ssh vim -y
+   12  vim /etc/ssh/sshd_config
+   13  service sshd restart
+   14  service ssh restart
+   15  service ssh status
+   16  service ssh enable
+   17  sudo add-apt-repository ppa:jonathonf/python-3.6
+   18  add-apt-repository ppa:jonathonf/python-3.6
+   19  apt-get install add-apt-repository
+   20  add-apt-repository ppa:jonathonf/python-3.6
+   21  sudo apt-get install software-properties-common python-software-properties
+   22  apt-get install software-properties-common python-software-properties
+   23  add-apt-repository ppa:git-core/ppa
+   24  apt-get update
+   25  add-apt-repository ppa:git-core/ppa
+   26  apt-get install software-properties-common python-software-properties
+   27  apt-get install software-properties-common
+   28  add-apt-repository ppa:jonathonf/python-3.6
+   29  apt-get update
+   30  apt-get install python3.6
+   31  python -v
+   32  python -V
+   33  update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
+   34  apt-get install python3.6
+   35  python3.6 -v
+   36  python3.6 -version
+   37  ln -s /usr/bin/python3 /usr/bin/python
+   
