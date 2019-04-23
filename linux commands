@@ -1,0 +1,8 @@
+#You can force a process (like SSH) to automatically load on system startup using systemctl enable ssh 
+
+1.systemctl stop ssh
+
+#To not load on startup with systemctl disable ssh 
+
+2.systemctl enable ssh
+
