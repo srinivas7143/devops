@@ -6,3 +6,8 @@
 
 2.systemctl enable ssh
 
+#If you want to visualize parent and child shells/processes, you can use the pstree command (adding the -p argument 
+#to display the PIDs for each process). Note how the first process (assigned PID 1) is systemd. On older versions of 
+#Linux (Ubuntu 14.04 and earlier, for instance), this would have been called init instead:
+
+3.pstree -p (with PID)
