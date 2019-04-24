@@ -11,3 +11,6 @@
 #Linux (Ubuntu 14.04 and earlier, for instance), this would have been called init instead:
 
 3.pstree -p (with PID)
+
+Adding the -e argument to ps as you did previously returns not only the processes running in your current child shell,
+but all the processes from all parent shells right back up to init.
