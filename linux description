@@ -1,0 +1,47 @@
+ps 
+Adding the -e argument to ps as you did previously returns not only the processes running in your current child shell, 
+but all the processes from all parent shells right back up to init.
+
+A password is a string of regular characters, while a passphrase can include spaces and punctuation.
+RSA is a popular encryption algorithm.
+
+
+X11 forwarding allows graphic programs to be run over a remote connection.
+
+
+A Linux process is all the ongoing activity that’s associated with a single running program.
+
+
+A shell is a terminal environment that provides a command-line interpreter (like Bash) to allow a user to execute commands. 
+When you’re working from a Linux desktop PC or laptop, you’ll generally access a shell by opening a terminal program 
+(like GNOME Terminal).
+
+
+A parent shell is an initial environment, from within which new child shells can subsequently be launched and through 
+which programs run. A shell is, for all intents and purposes, also a process.
+
+
+dpkg -s openssh-client checks the status of an APT-based software package.
+
+systemctl status ssh checks the status of a system process (systemd).
+
+systemctl start ssh starts a service.
+
+ip addr lists all the network interfaces on a computer.
+
+ssh-keygen generates a new pair of SSH keys.
+
+$ cat .ssh/id_rsa.pub | ssh ubuntu@10.0.3.142 "cat >> .ssh/authorized_keys" copies a local key and pastes it on a
+remote machine.
+
+ssh-copy-id -i .ssh/id_rsa.pub ubuntu@10.0.3.142 safely copies encryption keys (recommended and standard).
+
+ssh -i .ssh/mykey.pem ubuntu@10.0.3.142 specifies a particular key pair.
+
+scp myfile ubuntu@10.0.3.142:/home/ubuntu/myfile safely copies a local file to a remote computer.
+
+ssh -X ubuntu@10.0.3.142 allows you to log in to a remote host for a graphics-enabled session.
+
+ps -ef | grep init displays all currently running system processes and filters results using the string init.
+
+pstree -p displays all currently running system processes in a visual tree format.
