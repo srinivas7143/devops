@@ -1,26 +1,27 @@
- 
- 
+  
+ apt  install docker.io
+ https://github.com/ansible/ansible/issues/19605
  https://www.youtube.com/watch?v=Sf8urGA-Yhs
  
  link  https://www.youtube.com/watch?v=5LAYTBXIgW8
  
  
  
-    1  sudo apt-get update
-    2  apt-get update
-    3  sudo apt-get install software-properties-common
-    4  apt-get install software-properties-common
-    5  apt-add-repository --yes --update ppa:ansible/ansible
-    6  apt-get install ansible
-    7  ansible --version
-    8  ping 172.17.0.4
-    9  apt-get install python ansible openssh-client vim utils-ping -y
-   10  apt-get install python ansible openssh-client vim iputils-ping -y
-   11  ping 172.17.0.4
-   12  apt-get update
-   13  ssh-gen
-   14  ssh-keygen
-   15  ssh-copy-id root@172.17.0.3
-   16  ssh root@172.17.0.3
-   17  vim /etc/ansible/hosts
-   18  ansible -m ping junior
+     sudo apt-get update
+      apt-get update
+      sudo apt-get install software-properties-common
+      apt-get install software-properties-common
+      apt-add-repository --yes --update ppa:ansible/ansible
+      apt-get install ansible
+      ansible --version
+      ping 172.17.0.4
+      apt-get install python ansible openssh-client vim utils-ping -y
+     apt-get install python ansible openssh-client vim iputils-ping -y
+    ping 172.17.0.4
+     apt-get update
+     ssh-gen
+     ssh-keygen
+     ssh-copy-id root@172.17.0.3
+     ssh root@172.17.0.3https://github.com/ansible/ansible/issues/19605
+     vim /etc/ansible/hosts
+     ansible -m ping junior
