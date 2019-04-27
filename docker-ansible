@@ -1,0 +1,16 @@
+apt-get update -y
+apt-get install python ansible openssh-client vim iputils-ping -y
+service ssh restart
+service ssh enable
+service ssh start
+service ssh status
+ssh-keygen
+ssh-copy-id root@
+ssh root@
+vim /etc/ansible/hosts
+ansible -m ping all
+docker inspect bridge
+apt-get update && apt-get install ssh vim -y
+vim /etc/ssh/sshd_config
+service sshd restart
+service sshd start
