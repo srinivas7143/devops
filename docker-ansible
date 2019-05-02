@@ -14,3 +14,4 @@ apt-get update && apt-get install ssh vim -y
 vim /etc/ssh/sshd_config
 service sshd restart
 service sshd start
+sudo usermod -a -G docker ec2-user
