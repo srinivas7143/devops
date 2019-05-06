@@ -15,3 +15,11 @@ vim /etc/ssh/sshd_config
 service sshd restart
 service sshd start
 sudo usermod -a -G docker ec2-user
+
+# to escape from a running container
+
+ctl + p + q
+
+# to rename a container-name (by default it will generate a random name)
+
+docker rename docker-created-name-or-u-given-name  new-name
